@@ -1,0 +1,17 @@
+{
+  "name": "swaglabs_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "swaglabs": "playwright test",
+    "swaglabsui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.1"
+  }
+}
