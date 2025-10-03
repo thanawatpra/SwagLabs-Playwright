@@ -49,4 +49,8 @@ test.describe.serial(() => {
         await expect(page.locator('[data-test="item-0-title-link"]')).toBeVisible();
         await page.screenshot({ path: 'Screenshot/TC_Products_005.png' });
     });
+
+    test('', async() =>{
+
+    })
 });
